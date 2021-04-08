@@ -1,0 +1,180 @@
+.header{ 
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    height: 100px;
+    z-index: 10; 
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    background-color: #fff;
+}
+.header_logo{
+    float: left;
+    height: 82px;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header_logo{
+    margin-bottom: 5px;
+}
+.header_navLeft{
+  margin: 10px 0 0 1%;
+  display: flex;
+  float: left;
+  line-height: 80px;
+  height: 80px;  
+}
+.navLeft_option{
+  padding: 0 12px 0 17px;
+  position: relative;
+  display: flex;
+  height: 40px;
+  box-sizing: inherit;
+}
+ .header_search{
+    width: 260px;
+    float: left;
+    line-height: 0;
+    margin: 25px 0px 12px 210px;
+    position: relative;
+}
+.header_searchInput{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    color: #696e79;
+    line-height: 24px;
+    width: 95%;
+    padding: 8px 10px 10px;
+    box-sizing: content-box;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
+.header_searchBar{
+    box-sizing: content-box;
+    display: inline-block;
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    padding: 8px 0 2px;
+    background-color: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    position: absolute;
+    left: -41px;
+    color: #282c3f;
+}
+.header_searchIcon{
+    transform: scale(.7);
+    display: inline-block;
+    width: 15px;
+    height: 40px;
+    background-position: -754px 0;
+    background-size: 1404px 105px;
+    box-sizing: inherit;
+}
+.header_navRight{
+    margin-top: 18px;
+    float: right;
+    display: flex;
+    line-height: 0;
+    height: 40px;
+    margin: 40px 30px 10 10px;
+    box-sizing: inherit;
+}
+.navRight_link{
+    margin-top: 15px;
+}
+.navRight_option{
+  padding: 0 12px 0 17px;
+  margin-top: 25px;
+  position: relative;
+  width: 40px;
+  display: flex;
+  box-sizing: inherit;
+}
+.wizardLogo{
+    margin: 35px 0 0;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-position: -298px -56px;
+    background-size: 1404px 105px;
+    box-sizing: inherit;
+}
+.navRight_lineOne{
+    margin: 15px 0 0px;
+    position: absolute;
+    bottom: 13px;
+    left: 5px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: -298px -56px;
+    background-size: 1404px 105px;
+    box-sizing: inherit;
+}
+.navRight_lineTwo{
+    color: #000;
+    position: absolute;
+    bottom: 4px;
+    left: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 10px;
+    line-height: 6px;
+    box-sizing: inherit;
+    margin-top: 2px;
+    text-decoration: none;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
