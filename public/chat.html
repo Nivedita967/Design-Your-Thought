@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--nav bar design-->
+    </nav>
+        <div class="header">
+            <Link to="/" class="header_logo">
+            <img class="header_logo" src="img/Myntra.png" width="90" alt="myntra" />
+            </Link>
+        
+            <div class="header_navLeft">
+                <div class="navLeft_option">
+                    <span>MEN</span>
+                </div>
+                <div class="navLeft_option">
+                    <span>WOMEN</span>
+                </div>
+                <div class="navLeft_option">
+                    <span>KIDS</span>
+                </div>
+                <div class="navLeft_option">
+                    <span>HOME & LIVING</span>
+                </div>
+                <div class="navLeft_option">
+                    <span>OFFERS</span>
+                </div>
+        
+            </div>
+            <div class="wizardHeader_search">
+                <input class="header_searchInput" type="text" placeholder="Search for products, brands and more" />
+                <div class="header_searchBar">
+                    <SearchOutlinedIcon class="header_searchIcon" />
+        
+                </div>
+        
+            </div>
+            <div class="header_navRight">
+        
+                <div class="navRight_option">
+                    <img class="navRight_lineOne"
+                        src="https://tse1.mm.bing.net/th?id=OIP.NWtsH9ncr3-6XarRM6LXPAHaHv&pid=Api&P=0&w=300&h=300" />
+                    <span class="navRight_lineTwo">Profile</span>
+                </div>
+                <div class="navRight_option">
+                    <img class="navRight_lineOne"
+                        src="https://tse3.mm.bing.net/th?id=OIP.Ic45zR8xARTvYoLOqSjQ_AHaHa&pid=Api&P=0&w=300&h=300" />
+                    <span class="navRight_lineTwo">Wishlist</span>
+                </div>
+                <div class="navRight_option">
+                    <img class="navRight_lineOne"
+                        src="https://tse2.mm.bing.net/th?id=OIP.UP4iiScZtG0z_LQeVH3K1QHaId&pid=Api&P=0&w=300&h=300" />
+                    <span class="navRight_lineTwo">Bag</span>
+                </div>
+            </div>
+        
+        
+        </div>
+    </nav>
+    <!--chat app heading-->
+    <div class="heading">
+        <div class="head_content content_left">
+            <div class="myntra" id="image">
+                <img src="img/myntra.png" alt="myntra">
+            </div>
+            <div id="name">
+                <p>Suggestions</p>
+            </div>
+        </div>
+        <div class="head_content content_right">
+            <div class="wizard" id="image">
+                <img src="img/wizard.png" alt="wizard">
+            </div>
+            <div id="name">
+                <p>Wizard : Your personal Designer</p>
+            </div>
+        </div>
+    </div>
+    <!--chat app body-->
+    <div class="container">
+        <!--chat app left body-->
+        <div class="inner_container div_left">
+            <button class="copy1 sugg" onclick="CopyPaste1()">Red Tee</button>
+            <button class="copy2 sugg" onclick="CopyPaste2()">Floral printed gown</button>
+            <button class="copy3 sugg" onclick="CopyPaste3()">sleeveless Top</button>
+            <button class="copy4 sugg" onclick="CopyPaste4()">Regular Fit Sports Shorts</button>
+            <button class="copy5 sugg" onclick="CopyPaste5()">Chiffon Floral Top</button>
+            <button class="copy6 sugg" onclick="CopyPaste6()">Men Casual Shirt</button>
+            <button class="copy7 sugg" onclick="CopyPaste7()">Solid Tank Top</button>
+            <button class="copy8 sugg" onclick="CopyPaste7()">Hoodie</button>
+        </div>
+        <!--chat app right body-->
+        <div class="inner_container div_right">
+    
+        </div>
+    </div>
+    <!--send message container-->
+    <div class="footer">
+        <div class="footer_left">
+            <button class="copy8 sugg" style="margin-bottom: 8px;" onclick="CopyPaste8()">Printed Straight Kurta</button>
+        </div>
+        <div class="send footer_right">
+            <form action="#" id="send_container">
+                <a href="#" class="choose_file" onclick="ChooseImage()">
+                    <i class="fa fa-plus" style="color: #b34062;">
+                        <input type="file" id="imagefile" onchange="previewFile();" accept="image/*"
+                            style="display: none;" />
+                    </i>
+                </a>
+                <input type="text" style="font-size: 20px;" name="messageInp" id="messageInp">
+                <button class="butn">Send</button>
+            </form>
+        </div>
+    </div>
+    <img id="imga">
+    
+</body>
+</html>
