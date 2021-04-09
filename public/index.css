@@ -165,7 +165,7 @@ body {
 .heading {
   display: flex;
   height: 60px;
-  margin: 50px 112px 0px 112px;
+  margin: 20px 112px 0px 112px;
   background-color: #ffa2bd;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -203,9 +203,13 @@ body {
 }
 .div_right {
   width: 70.8%;
-  padding-left: 10px;
-  overflow-y: auto;
-  margin-bottom: 10px;
+  transform: rotate(180deg);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.message_container {
+  overflow: hidden;
+  transform: rotate(180deg);
 }
 .message {
   background-color: #ffa2bd;

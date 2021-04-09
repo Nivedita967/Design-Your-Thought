@@ -1,7 +1,7 @@
 // client javascript
 const socket = io('http://localhost:8000');
 
-const messageContainer = document.querySelector(".div_right")
+const messageContainer = document.querySelector(".message_container")
 const messageForm = document.getElementById('send_container')
 const messageInput = document.getElementById('messageInp')
 
