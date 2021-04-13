@@ -1,6 +1,6 @@
 <h1 align="center">Wizard- Design Your Thought</h1>
 Got tired of scrolling into shopping app but still not delighted? we will help you find the one you exactly need.
-Create individual and unique styles onto clothing that matches you, or as a surprise gift for you family and friends. You just need to suggest the design you want and get the the output in the form of image. If not yet delighted, suggest more changes or addition in your merchandise. We will help you untill you are delighted. Add your item in the cart and get it delivered to your door.  
+Create individual and unique styles onto clothing that matches you, or as a surprise gift for you family and friends. You just need to suggest the design you want and get the the output in the form of image. If not yet delighted, suggest more changes or addition in your merchandise. We will help you until you are delighted. Add your item in the cart and get it delivered to your door.  
 
 ### Technologies Used
 1. HTML
